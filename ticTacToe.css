@@ -1,0 +1,43 @@
+html {
+ display: -webkit-flex;
+ -webkit-align-items: center;
+ -webkit-justify-content: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+ /*font-size: 100%;
+ font-size: 2vmax;
+ font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-weight: 300;
+ line-height: 1.3;
+ background-color: #fff;
+ color: #000;*/
+}
+#main{
+  background-color: black;
+}
+
+.cell{
+  width: 150px;
+  height: 150px;
+  border: 2px solid white;
+  color: white;
+}
+
+
+.td_div{
+  text-align: center;
+}
+
+.grid{
+  height: auto;
+  width: auto;
+  /*border-width: 50%;*/
+}
+
+a {
+  padding-left: 50%;
+  color: white;
+}
